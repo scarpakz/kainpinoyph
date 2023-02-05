@@ -229,3 +229,60 @@ html {
     padding-bottom: 50px;
     background-color: var(--dark-blue);
 }
+.kp-res-title-container h1{
+    color: #FEFEFE;
+    font-family: 'Lemon', cursive;
+    font-size: 64px;
+}
+.kp-res-title-container p {
+    color: #FEFEFE;
+}
+.kp-res-forms {
+    display: flex;
+    flex-direction: column;
+}
+.kp-res-forms select {
+    padding: 10px;
+    font-size: 24px;
+    color: var(--text-gray);
+    margin-bottom: 20px;
+}
+.kp-input-group input, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    border: unset;
+    font-size: 24px;
+}
+.kp-input-group {
+    margin-bottom: 10px;
+}
+.kp-submit-reserve {
+    width: 350px;
+    border: unset;
+    background-color: #F9F022;
+    color: #222;
+    padding: 20px 40px;
+    border-radius: 20px;
+    font-size: 36px;
+    font-family: 'Koulen', cursive;
+}
+
+/* FOOTER */
+.footer-wrapper {
+    background-color: #151515;
+}
+.footer-left h5{
+    font-family: 'Koulen', cursive;
+    font-size: 28px;
+}
+.footer-left, .footer-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+.footer-right {
+    flex-direction: column;
+}
