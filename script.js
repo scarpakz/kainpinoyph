@@ -24,3 +24,12 @@ submitContactStep = () => {
         contactFirstStep[0].classList.remove("hidden")
     }
 }
+
+toggleMenuResponsive = () => {
+    const responsiveList = document.getElementsByClassName("kp-nav-list-responsive");
+    if (responsiveList[0].classList.contains('hidden')) {
+        responsiveList[0].classList.remove("hidden")
+    } else {
+        responsiveList[0].classList.add("hidden")
+    }
+}
